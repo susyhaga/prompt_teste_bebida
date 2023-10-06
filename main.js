@@ -28,7 +28,7 @@ function myFunction() {
         break;
         case "Vodka":
         case "vodka":
-            text = "Vodka. Vixe!Renata Sorrah, é você?! Procure um AA mais próximo";
+            text = "Vodka. Vixe! Renata Sorrah, é você?! Procure um AA mais próximo";
         break;
         case "Caipirinha":
         case "caipirinha":
