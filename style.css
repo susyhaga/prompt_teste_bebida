@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+body{
+    background-image: url('./images/b2.jpg');
+    background-attachment: fixed;
+}
+
+.container{
+    text-align: center;
+    background: linear-gradient(to bottom, #181717 0%, #2a2a2a 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+    position: sticky;
+}
+
+.texto{
+    padding-bottom: 12px;
+    padding-top: 40px;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.sub{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+.pergunta{
+    background-color: #fff;
+    margin:0 auto;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+
+}
+.botao1 {
+    width: 50%;
+    padding:80px 20px 10px;
+	height:70%;
+    margin: 0 auto;
+	text-align: center;
+    display: block;
+
+}
+
+.animated-word {
+	font-family: Helvetica;
+	letter-spacing: 0.4em;
+	font-weight: 600;
+	font-size: 40px;
+	text-align: center;
+	color: #202125;
+    cursor: pointer;
+    max-width: 600px; 
+    width: 100%x;
+    outline: 4px solid;
+    outline-color: rgb(114, 10, 10);
+    outline-offset: 20px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word:hover {
+	color: rgba(133, 4, 4);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 100px;
+}
+
+#demo{
+    background-color: #fff;
+    padding:100px;
+    margin:100px 100px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    display: none;
+
+}
+
