@@ -45,7 +45,7 @@ function myFunction() {
                 text = "Água. Você se acha saudavel, mas no fundo é apenas careta e moralista porque voce poe pra dentro de você coisas extremamente podres e tóxicas.";
             break;
         default:
-            text = "QUE PORRA É ESSA??! Por acaso você é o Calvo da Campari?! Tá me tirando, digitando qualquer merda?!";
+            text = "QUE PORRA É ESSA??! Por acaso você é o Calvo da Campari?! Tá me tirando digitando qualquer merda?!";
     }
     document.getElementById("demo").innerHTML = text;
     const resposta = document.querySelector('.resposta');
