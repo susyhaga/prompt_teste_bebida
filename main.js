@@ -4,52 +4,62 @@ function myFunction() {
     switch(favDrink) {
         case "Coca-Cola":
         case "coca-cola":
-            text = "Coca-cola! Você é uma pessoa que se acha diferente e importante, mas no fundo é igualzinha as outras.";
+            text = "Você é uma pessoa que se acha diferente e importante, mas no fundo é igualzinha às outras.";
         break;
         case "Pepsi":
             case "pepsi":
-                text = "Pepsi?!?!?!?! Uma pessoa deprimida que nao ve mais graca em nada que a vida oferece.";
+                text = "Uma pessoa deprimida que não vê mais graça em nada que a vida oferece.";
             break;
         case "Leite com chocolate":
         case "Leite com chocolate":
-            text = "Leite com chocolate? Sai daqui! Mimadim do carai!";
+            text = "Sai daqui! Mimadim do carai!";
         break;
         case "Suco de laranja":
-        case "sudo de laranja":
-                text = "Suco de laranja. PSICOPATA! Engana as pessoas tomando suco de laranja enquanto planeja acabar com elas.";
+        case "suco de laranja":
+                text = "PSICOPATA! Engana as pessoas tomando suco de laranja enquanto planeja acabar com elas.";
             break;
         case "Cerveja":
-        case "Cerveja":
-            text = "Cerveja. Uma pessoa que sente os prazeres da vida no sofrimento. A vida eh tão amarga que uma cerveja é apenas um docinho pra você.";
+        case "cerveja":
+            text = "Uma pessoa que sente os prazeres da vida no sofrimento. A vida é tão amarga que uma cerveja é apenas um docinho pra você.";
         break;
         case "Sprite":
         case "sprite":
-            text = "Sprite. Você é um perdedor nato, e sempre prefere as coisas que ninguém gosta. Pessoa chata demais!";
+            text = "Você é um perdedor nato, e sempre prefere as coisas que ninguém gosta. Pessoa chata demais!";
         break;
         case "Vodka":
         case "vodka":
-            text = "Vodka. Vixe! Renata Sorrah, é você?! Procure um AA mais próximo.";
+            text = "Vixe!Renata Sorrah, é você?! Procure um AA mais próximo";
         break;
         case "Caipirinha":
         case "caipirinha":
-            text = "Caipirinha. Dá mais valor ao que os gringos gostam do que ao que você realmente gosta. Você gosta de suquinho e não de bebida alcoólica!";
+            text = "Dá mais valor ao que os gringos gostam do que ao que você realmente gosta. Você gosta de suquinho e não de bebida alcoólica!";
         break;
         case "Fanta":
         case "fanta":
-            text = "Fanta? Você é adolescente?";
+        text = "Você é adolescente?";
+        break;
+        case "Cafe":
+        case "cafe":
+        case "Café":
+        case "café":
+        text = "Pseudointelectual: alguém que aparenta ter uma grande atividade intelectual sem a possuir; quem expressa falsos interesses ou conhecimentos sobre arte, cultura, música, literatura.";
         break;
         case "Agua":
         case "agua":
         case "Água":
         case "água":
-                text = "Água. Você se acha saudavel, mas no fundo é apenas careta e moralista porque voce poe pra dentro de você coisas extremamente podres e tóxicas.";
+                text = "Você se acha saudável, mas no fundo é apenas careta e moralista porque você põe pra dentro de você coisas extremamente podres e tóxicas.";
             break;
         default:
-            text = "QUE PORRA É ESSA??! Por acaso você é o Calvo da Campari?! Tá me tirando digitando qualquer merda?!";
+            text = "QUE PORRA É ESSA??! Tá me tirando, digitando qualquer merda?!";
     }
+
+
+    
+
     document.getElementById("demo").innerHTML = text;
     const resposta = document.querySelector('.resposta');
-    document.getElementById("demo").innerHTML =text;
+    document.getElementById("demo").innerHTML =  favDrink + "?! "  + text;
     resposta.style.display= 'block';
 }
 
@@ -100,7 +110,7 @@ class TypeWriter {
         if (this.isDeleting){
             typeSpeed /= 4;        
         }
- 
+
         if(this.isDeleting){
             typingElement.className = "fas fa-pencil-alt erasing-animation";
         }else{
